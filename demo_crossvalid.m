@@ -3,7 +3,7 @@ clear all;
 close all;
 clc;
 
-dataSetname =  ["iris"];
+dataSetname =  ["parkinsons"];
 for si = dataSetname
     dataset_s =  char(si)
     for ri = 1:10
